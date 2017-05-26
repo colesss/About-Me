@@ -1,5 +1,5 @@
 h1 {
-  background-color: green;
+  background-color: grey;
 }
 
 p {
@@ -11,9 +11,9 @@ p {
 }
 
 #unique-p-tag {
-  background-color: blue;
+  background-color: grey;
 }
 
 .page-content {
-  background-color: red;
+  background-color: grey;
 }
