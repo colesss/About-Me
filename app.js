@@ -15,14 +15,14 @@ var user = prompt ('Wait a minute...who is asking?');
   console.log('The user\'s name is ' + user);
 
 //alert greeting user and informing user about coming questions
-alert('Ohhhhhh, heya ' + user + ', let\'s answer some yes and no questions about Cole and see how many you get right, yeah?');
+alert('Ohhhhhh, heya ' + user + '! Let\'s answer some yes and no questions about Cole and see how many you get right, yeah?');
 
 //prompt for question1, telling user that this is a y/n question and then asking question about developer
 var answer1 = prompt (user + ', does Cole love tattoos? Make sure you answer with Yes or No!');
 
 //if/else statement with responses to whether the question1 was answered correctly, condition needs a response that matches prompt format
 if (answer1.toUpperCase () === 'YES') {
-  alert('Hmmmm, that was pretty obvious wasn\' it? Next question!');
+  alert('Hmmmm, that was pretty obvious wasn\'t it? Next question!');
 } else {
   alert('No! Really? Ummm, did you see their tats? Errr...well I suppose they are covered most of the time since it is super cold in the classrooms.');
 }
@@ -42,7 +42,7 @@ var answer3 = prompt (user + ', does Cole have a dog?');
 
 //if/else statement with responses to whether the question3 was answered correctly, condition needs a response that matches prompt format
 if (answer3.toUpperCase () === 'YES') {
-  alert('They certianly do! His name is Cid and he loves to cuddle, as pitties typically do with their humans.');
+  alert('They certainly do! His name is Cid and he loves to cuddle, as pitties typically do with their humans.');
 } else {
   alert('Ahh, so you haven\'t noticed the dog hairs. Good!');
 }
@@ -58,7 +58,7 @@ if (answer4.toUpperCase () === 'YES') {
 }
 
 //prompt for question5, telling user that this is a y/n question and then asking question about developer
-var answer5 = prompt ('Last question, ' user + '! Is Cole\'s favorite beer an IPA?');
+var answer5 = prompt ('Last question, ' + user + '! Is Cole\'s favorite beer an IPA?');
 
 //if/else statement with responses to whether the question5 was answered correctly, condition needs a response that matches prompt format
 if (answer5.toUpperCase () === 'YES') {
