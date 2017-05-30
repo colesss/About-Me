@@ -7,7 +7,7 @@ var confirmed = confirm ('Are you sure you want to know more about Cole?');
 if(confirmed === true){
   console.log('You do!?! D\'awwww');
 } else {
-  console.log('No? I just simply do not believe that. Let\'s find out more about Cole, huh?')
+  console.log('No?!? Those letters are pretty far away from the letters that make up the answer yes...hate to tell you, but you might need some more lessons on typing...')
 }
 
 //prompt asking for the user's name, console.log logging name entered into var user
@@ -24,7 +24,7 @@ var answer1 = prompt (user + ', does Cole love tattoos? Make sure you answer wit
 if (answer1.toUpperCase () === 'YES') {
   alert('Hmmmm, that was pretty obvious wasn\' it? Next question!');
 } else {
-  alert('No! Really? Errr...let\'s move on to the next question.');
+  alert('No! Really? Ummm, did you see their tats? Errr...well I suppose they are covered most of the time since it is super cold in the classrooms.');
 }
 
 //prompt for question2, telling user that this is a y/n question and then asking question about developer
@@ -34,7 +34,7 @@ var answer2 = prompt (user + ', did Cole turn 20 earlier this month?');
 if (answer2.toUpperCase () === 'YES') {
   alert('HAHAHAHAHA, you flatterer you!!!');
 } else {
-  alert('*snorts* That is Correct! Bartenders stopped carding Cole when they started drinking gin on the rocks.');
+  alert('*snorts* That is correct! Bartenders stopped carding Cole when they started drinking gin on the rocks. Hey!!! No judgement, it\'s a quick dry martini with no fuss.');
 }
 
 //prompt for question3, telling user that this is a y/n question and then asking question about developer
