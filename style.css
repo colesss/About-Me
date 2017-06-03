@@ -1,19 +1,48 @@
+body{
+  width: 90%;
+  margin: 0 auto;
+  /*what are these doing pg 386*/
+}
+
 h1 {
-  background-color: grey;
+  display: block;
+  color: white;
+  height: 30px;
+  width: 200px;
 }
 
-p {
-  border: 5px solid black;
+#nav, #footer {
+  margin: 1%;
+  padding: 0.5em 0;
+  /*the 0 after the size em made this styling go back to what it was before, what is the point of it?*/
+  color: white;
 }
 
-#unique-p-tag {
-  background-color: grey;
+li {
+  display: inline;
+  /*why did the display not get reecognized in the #nav. styling?*/
+  padding: 0.5em 0;
+  /*the 0 after the size em made this styling go back to what it was before, what is the point of it?*/
 }
 
-#unique-p-tag {
-  background-color: grey;
+h2 {
+  display: block;
+  color: white;
+  height: 20px;
+  width: 200px;
 }
 
-.page-content {
-  background-color: grey;
+img {
+  width: 50%;
+  float: left;
+  margin-bottom: 1em;
+}
+
+#content {
+  height: 10em;
+  width: 50%;
+  float: right;
+  color: white;
+  margin-bottom: 1em;
+  margin-left: ; /*?*/
 }
