@@ -1,28 +1,37 @@
-body{
-  width: 90%;
-  margin: 0 auto;
-  /*what are these doing pg 386*/
+html {
+  background-image: url("http://wallpaper-gallery.net/images/dark-backgrounds-wallpapers/dark-backgrounds-wallpapers-4.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
 }
+
+body {}
+
 
 h1 {
-  display: block;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: black;
   color: white;
-  height: 30px;
-  width: 200px;
+  float: left;
+  font-size: 100px;
 }
 
-#nav, #footer {
-  margin: 1%;
-  padding: 0.5em 0;
-  /*the 0 after the size em made this styling go back to what it was before, what is the point of it?*/
-  color: white;
+#nav {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  list-style:none;
+  background-color: grey;
+  text-align: center;
+  font-family: sans-serif;
 }
 
 li {
   display: inline;
-  /*why did the display not get reecognized in the #nav. styling?*/
-  padding: 0.5em 0;
-  /*the 0 after the size em made this styling go back to what it was before, what is the point of it?*/
+  padding: 3em;
 }
 
 h2 {
@@ -30,19 +39,40 @@ h2 {
   color: white;
   height: 20px;
   width: 200px;
+  font-family: sans-serif;
 }
 
 img {
-  width: 50%;
+  width: 20%;
   float: left;
-  margin-bottom: 1em;
+  margin: 10px;
+  padding: 10px;
 }
 
 #content {
-  height: 10em;
-  width: 50%;
+  height: 100px;
+  width: 60%;
   float: right;
   color: white;
-  margin-bottom: 1em;
-  margin-left: ; /*?*/
+  margin: 10px;
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+#favorites {
+  height: 300px;
+  width: 100%;
+  color: white;
+  margin: 10px;
+  padding: 10px;
+  font-family: sans-serif
+}
+
+#footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   color: white;
 }
