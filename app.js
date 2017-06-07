@@ -14,9 +14,6 @@ var user = prompt ('Wait a minute...who is asking?');
   console.log('The user\'s name is ' + user);
   alert('Ohhhhhh, heya ' + user + '! Let\'s answer five yes and no questions about Cole and see how many you get right, yeah?');
 
-//correct: tracks correct answers
-var correct = 0;
-
 var quest1 = (user + ', does Cole love tattoos? Make sure you answer with Yes or No!');
 var quest1Correct = ('Hmmmm, that was pretty obvious wasn\'t it? Next question!');
 var quest1Incorrect = ('No! Really? Ummm, did you see their tats? Errr...well I suppose they are covered most of the time since it is super cold in the classrooms.');
@@ -46,6 +43,31 @@ var questArray = [quest1, quest2, quest3, quest4, quest5];
 var questCorrectArray = [quest1Correct, quest2Correct, quest3Correct, quest4Correct, quest5Correct];
 var questIncorrectArray = [quest1Incorrect, quest2Incorrect, quest3Incorrect, quest4Incorrect, quest5Incorrect];
 var questIncomprehensibleArray = [quest1Incomprehensible, quest2Incomprehensible, quest3Incomprehensible, quest4Incomprehensible, quest5Incomprehensible];
+
+var allReply = [];
+var reviewReply = [];
+var correct = 0;
+var incorrect = 0;
+var incomprehensible = 0
+
+
+for(var i = 0; i < questArray.length; i++) {
+  var reply = prompt(questArray[i]).slice(0,1);
+  allReply.push(reply);
+  console.log(allReply);
+  if(allReply[i].toLowerCase()) {
+    correct++;
+    reviewReply.push('correct');
+    alert(questCorrectArray[i]);
+  } else if(allReply[i].toLowerCase()) {
+    incorrect++;
+    reviewReply.push('incorrect');
+    alert(questIncorrectArray[i]);
+  } else {
+    alert(questIncomprehensibleArray[i]);
+    incomprehensible++;
+  }
+}
 
 
 //yes or no quessing questions
